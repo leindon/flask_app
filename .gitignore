@@ -4,6 +4,8 @@ fenv
 fenv/pyvenv.cfg
 .env
 fenv/
+.vscode
+myenv
 
 .DS_Store
 # add vercel files

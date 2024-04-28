@@ -21,7 +21,7 @@ Question: {question.capitalize()}
 Answer:"""
 
 @app.route("/", methods=("POST", "GET"))
-@requires_auth
+#@requires_auth
 def index():
     if request.method == "POST":
         question = request.form["question"]
